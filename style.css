@@ -163,10 +163,13 @@
     #icons{
         height:100px;
     }
-    @media screen and (min-width: 480px)
+    @media screen and (max-width: 600px)
     {
         #free{
-            border-radius: 6px;
+            border-radius: 11px;
+        }
+        #sections{
+            flex-wrap: wrap;
         }
 
 
