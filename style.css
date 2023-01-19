@@ -163,3 +163,14 @@
     #icons{
         height:100px;
     }
+    @media screen and (min-width: 480px)
+    {
+        #free{
+            border-radius: 6px;
+        }
+        #sections{
+            flex-wrap: wrap;
+        }
+
+
+    }
