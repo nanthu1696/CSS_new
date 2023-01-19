@@ -275,8 +275,8 @@
           #card{
             border: 5px solid rgb(242, 228, 228);
             border-radius: 11px;
-            width:500px;
-            height: 100px;
+            width:220px;
+            height: 70px;
             position: absolute;
             top: 40px;
             background-color: white;
@@ -285,30 +285,24 @@
             align-items: center;
             padding: 20px;
           }
+          #card h2{
+            font-size: smaller;
+          }
           #card button{
             background-color: #FE52C0;
             color: #FFEEFF;
             border:none;
             border-radius: 11px;
-            width: 250px;
+            width: 120px;
             height: 80px;
+            font-size: x-small;
           }
           #cards{
             display: grid;
             grid-template-columns: repeat(4,1fr);
             padding:50px;
           }
-          ul{
-            list-style-type: none;
-          }
-          li{
-              padding: 5px;
-          }
           li:hover{
               text-decoration: underline;
           }
-          #icons{
-              height:100px;
-          }
-
     }
